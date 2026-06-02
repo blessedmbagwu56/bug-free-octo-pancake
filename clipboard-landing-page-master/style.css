@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.section-one {
+  text-align: center;
+}
+
+.desktop-preview {
+  width: 100%;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 130px;
+  left: 47%;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+h1,
+h2,
+h4,
+h5 {
+  color: hsl(210, 10%, 33%);
+}
+
+p {
+  font-size: 18px;
+  color: hsl(201, 11%, 66%);
+}
+
+.description {
+  width: 43%;
+  margin: 0 auto;
+}
+
+button {
+  width: 15%;
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  color: hsl(0, 0%, 90%);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.ios {
+  background-color: hsl(171, 66%, 44%);
+  margin-right: 5px;
+}
+
+.mac {
+  background-color: hsl(233, 100%, 69%);
+  margin-left: 5px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.snippets-description {
+  width: 48%;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.quick-search {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+
+.quick-search img {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.search-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search-description p {
+  margin-bottom: 60px;
+  width: 60%;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+h4 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.easy-access p {
+  width: 45%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.supercharge p {
+  margin-bottom: 80px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  margin: 60px auto;
+}
+
+.features {
+  flex: 1;
+  text-align: center;
+}
+
+.features p {
+  margin: 0 auto;
+}
+
+.pf {
+  width: 80%;
+}
+
+.p {
+  width: 80%;
+}
+
+.pl {
+  width: 85%;
+}
+
+.images {
+  width: 50%;
+  min-height: 40%;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+h5 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.clipboard p {
+  width: 50%;
+  margin: 0 auto;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  gap: 100px;
+  background-color: hsl(200, 12%, 98%);
+  color: hsl(201, 11%, 66%);
+  padding: 50px 0 50px 100px;
+  margin: 0;
+}
+
+.small-logo {
+  width: 5%;
+  margin-right: 20px;
+  margin-left: 50px;
+}
+
+.socials {
+  margin-left: 250px;
+  display: flex;
+  gap: 20px;
+}
+
+.socials:hover {
+  cursor: pointer;
+  filter: grayscale(0) opacity(0.8);
+}
+
+@media (max-width: 800px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 200vh;
+    background-image: url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 495px 350px;
+    text-align: center;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  main {
+    width: 500px;
+    text-align: center;
+  }
+
+  .section-one {
+    text-align: center;
+  }
+
+  .desktop-preview {
+    display: none;
+  }
+
+  .logo {
+    top: 150px;
+    left: 200px;
+    width: 100px;
+  }
+
+  h1 {
+    width: 300px;
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 300px;
+  }
+
+  .description {
+    width: 345px;
+  }
+
+  button {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+
+  .ios,
+  .mac {
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .ios {
+    margin-top: 40px;
+  }
+
+  h2 {
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .snippets-description {
+    width: 350px;
+  }
+
+  .quick-search {
+    flex-direction: column;
+  }
+
+  .quick-search p,
+  h3 {
+    text-align: center;
+  }
+
+  h4 {
+    width: 300px;
+  }
+
+  .mac {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 60px;
+  }
+
+  .clipboard p {
+    width: 345px;
+  }
+
+  .clipboard {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    margin: 0;
+  }
+
+  .easy-access p {
+    width: 350px;
+    margin-bottom: 60px;
+  }
+
+  .easy-access img {
+    width: 400px;
+  }
+
+  .quick-search .computer-preview {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  .quick-search p {
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+
+  .easy-access h4 {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .easy-access img {
+    margin-bottom: 50px;
+  }
+
+  .supercharge p {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .supercharge h4 {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .features-container {
+    flex-direction: column;
+  }
+
+  .clipboard h4 {
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .images {
+    flex-direction: column;
+    gap: 70px;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 0;
+    padding: 55px;
+  }
+
+  footer p {
+    margin-bottom: 50px;
+  }
+
+  .small-logo {
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .socials {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .faqs,
+  .install {
+    margin: 20px;
+  }
+}
