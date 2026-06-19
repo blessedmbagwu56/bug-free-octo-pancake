@@ -24,7 +24,7 @@ body {
 .logo {
   position: absolute;
   top: 130px;
-  left: 47%;
+  left: 45%;
 }
 
 h1 {
@@ -200,7 +200,7 @@ footer {
   gap: 20px;
 }
 
-.socials:hover {
+.socials img:hover  {
   cursor: pointer;
   filter: grayscale(0) opacity(0.8);
 }
